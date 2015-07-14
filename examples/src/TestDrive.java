@@ -53,7 +53,7 @@ public class TestDrive {
 	{
 		StringBuilder reverse = new StringBuilder();
 		int end = s.length();
-		for (int start = s.length() - 1; start >= 0; start --)
+		for (int start = s.length() - 1; start >= 0; start--)
 		{
 			if (s.charAt(start) == ' ')
 			{
