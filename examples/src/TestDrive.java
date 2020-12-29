@@ -12,7 +12,6 @@ public class TestDrive {
 		//System.out.println(isPalindrome("a123bc"));
 		//System.out.println(reverseWords("a bc de f    h i j   "));
 //		System.out.println(reverseInt(1000000003));
-//		System.out.println(Integer.MAX_VALUE);
 		int x = Integer.parseInt("1000000000000000000000000000000", 2);
 		System.out.println(Integer.toBinaryString(x));
 		int y = reverseBit(x);
